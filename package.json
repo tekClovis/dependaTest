@@ -1,0 +1,11 @@
+{
+  "name": "dependatest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test repo with intentionally vulnerable dependencies to trigger Dependabot alerts. Do not use in production.",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "minimist": "1.2.0",
+    "axios": "0.21.0"
+  }
+}
